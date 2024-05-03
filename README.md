@@ -13,13 +13,13 @@ This Github page contains all materials for this year's summer school
 
 The topics and speakers are as follows: 
 - Day 1 (June 3rd) Opening Session: by Organizers and [ACM Europe Council](https://europe.acm.org/) representative. 
-- Day 2 (June 4th) Lecture 1:
-- Day 2 (June 4th) Lecture 2: 
-- Day 3 (June 5th) Lecture 3:
-- Day 3 (June 5th) Lecture 4: 
-- Day 4 (June 6th) Lecture 5:
-- Day 4 (June 6th) Lecture 6:
-- Day 5 (June 7th) Lecture 7:
+- Day 2 (June 4th) Lecture 1: Optimization methods for interface design and adaptation by [Anna Maria Feit](http://annafeit.de/) & [João Belo](https://www.linkedin.com/in/jo%C3%A3o-belo-8b5418204/)
+- Day 2 (June 4th) Lecture 2: Modeling and understanding user interfaces from pixels by [ Amanda Swearngin](https://amaswea.github.io/)
+- Day 3 (June 5th) Lecture 3: Charting the routes of thoughts in LLM-empowered conversational interactions by [Xiaojuan Ma](https://www.cse.ust.hk/~mxj/)
+- Day 3 (June 5th) Lecture 4: Supporting rich interactions in mixed reality by [John Dudley](https://www.eng.cam.ac.uk/profiles/jjd50)
+- Day 4 (June 6th) Lecture 5: Parameterization and Selection of Behavioural Models by [Gilles Bailly](https://hci.isir.upmc.fr/gilles-bailly/)
+- Day 4 (June 6th) Lecture 6:Augmenting Ideation and Sensemaking in the age of LLMs: Concepts, Examples, and Opportunities from an HCI Perspective by [Gonzalo Ramos](https://www.microsoft.com/en-us/research/people/goramos/)
+- Day 5 (June 7th) Lecture 7: Forward and inverse modelling in input by [John H. Williamson](https://www.gla.ac.uk/schools/computing/staff/johnwilliamson/)
 
 
 
