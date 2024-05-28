@@ -1,9 +1,7 @@
 .DS_Store
-*.local
 components.d.ts
 
 # custom files
 bookmarks.html
-*.mp4
 secrets.json
 output.md
