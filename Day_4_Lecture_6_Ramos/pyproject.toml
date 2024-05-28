@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "summer-school-24"
+version = "0.1.0"
+description = ""
+authors = ["Gonzalo Ramos <goramos@microsoft.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.2.2"
+ipykernel = "^6.29.4"
+requests = "^2.32.1"
+markdownify = "^0.12.1"
+unstructured = "^0.14.2"
+tqdm = "^4.66.4"
+faiss-cpu = "^1.8.0"
+crewai = {extras = ["tools"], version = "^0.30.11"}
+langchain-groq = "^0.1.4"
+sentence-transformers = "^2.7.0"
+ipywidgets = "^8.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
