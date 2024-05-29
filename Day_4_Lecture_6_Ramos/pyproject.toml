@@ -15,10 +15,13 @@ markdownify = "^0.12.1"
 unstructured = "^0.14.2"
 tqdm = "^4.66.4"
 faiss-cpu = "^1.8.0"
-crewai = {extras = ["tools"], version = "^0.30.11"}
 langchain-groq = "^0.1.4"
 sentence-transformers = "^2.7.0"
 ipywidgets = "^8.1.2"
+langchain = "^0.2.1"
+langchain-community = "^0.2.1"
+langchain-openai = "^0.1.7"
+langgraph = "^0.0.56"
 
 
 [tool.poetry.group.dev.dependencies]
