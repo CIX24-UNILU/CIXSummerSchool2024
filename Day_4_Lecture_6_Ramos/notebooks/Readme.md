@@ -5,7 +5,7 @@ This file contains information about how to set your environment to run the code
 ## Dependencies
 
 - [Git](https://git-scm.com/downloads) - Important for version control and pulling things from repositories (repos).
-- [VSCode](https://code.visualstudio.com/download) - A code editor that is very useful for Python development. Optional but recommended.
+- [VSCode](https://code.visualstudio.com/download) - A code editor that is very useful for Python development and working with interactive notebooks that run locally. **Highly recommended**.
 - [poetry](https://python-poetry.org/docs/#installation) - A (recommended) tool for managing Python dependencies.
 
 ## A note about python versions
