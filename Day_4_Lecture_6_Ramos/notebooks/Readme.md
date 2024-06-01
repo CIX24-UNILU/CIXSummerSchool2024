@@ -4,9 +4,14 @@ This file contains information about how to set your environment to run the code
 
 ## Dependencies
 
+Please install these dependencies before running the code in the notebooks:
+
 - [Git](https://git-scm.com/downloads) - Important for version control and pulling things from repositories (repos).
 - [VSCode](https://code.visualstudio.com/download) - A code editor that is very useful for Python development and working with interactive notebooks that run locally. **Highly recommended**.
-- [poetry](https://python-poetry.org/docs/#installation) - A (recommended) tool for managing Python dependencies.
+- [Poetry](https://python-poetry.org/docs/#installation) - A (recommended) tool for managing Python dependencies.
+- [Ollama](https://ollama.com) - A tool that can help you use local LLM models.
+
+Some of the code will invite you to use local LLM models. The notebooks use ollama for this. Since downloading a model might take some time depending on your internet connection, **we recommend that you install ollama and download the model(s) before running the day of the lecture**.
 
 ## A note about python versions
 
