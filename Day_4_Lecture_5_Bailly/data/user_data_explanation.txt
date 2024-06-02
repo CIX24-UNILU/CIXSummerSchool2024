@@ -1,0 +1,21 @@
+This file described the meaning of the different columns of the csv file user_data.csv.
+Each row corresponds to one trial, i.e. the execution of one command by one participant with one technique
+
+The columns are:
+
+1.  User_id             : id of the participant (from 0 to 41)
+2.  Technique           : the name of the interaction technique (traditional, audio, disabled)
+3.  Command             : the id of the command to execute [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+4.  Frequence           : frequency of the command (144, 72, 48, 36, 24, 12])
+5.  Name                : Name of the command
+6.  Transition_start    : The trial id when the transition starts for the given command (do not consider)
+7.  Transition_stop     : The trial id when the transition stops for the given command  (do not consider)
+8.  Time                : Time to execute the command
+9.  Success             : 1 if the command has been correctly executed, 0 sinon
+10. Strategy            : 0: MENU; 1: HOTKEY; 2: LEARNING  
+11. Executed_command    : The command executed by the participant
+12. Block               : block id (from 0 to 12). A block contains 60 trials
+13. Block_trial         : id of the trial within block [0..59]
+14. Encounter           : number of times this command has been encountered             (do not consider)
+15. Method_id           : id of the method 0(=menu), 1(=keyboard_shortcut)              (do not consider)
+16. Method _name        : name of the method menu, HOTKEY                               (do not consider)

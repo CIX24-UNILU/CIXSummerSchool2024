@@ -1,0 +1,28 @@
+# ModelEvaluation
+Exercice to learn how to evaluate computational models in HCI
+
+# Requierments
+This exercise relies on Python and common libraries. It has been tested with:
+- python: 3.7,
+- numpy: 1.25.0
+- pandas: 1.4.2
+- matplotlib: 3.5.3
+- seaborn: 0.11.2
+- scipy: 1.10.1
+
+The whole list of imports:
+
+import sys
+import numpy as np
+import pandas as pd
+import matplotlib
+import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
+import seaborn as sns
+import scipy
+import random
+from scipy.optimize import brute, differential_evolution
+import time
+import math
+from sklearn.metrics import mean_squared_error
+print('Python version', sys.version)
