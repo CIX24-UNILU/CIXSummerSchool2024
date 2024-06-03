@@ -1,0 +1,10 @@
+paper/
+rock/
+scissors/
+
+*.py
+
+*_annotations.csv
+scissors_bend_angles.csv
+paper_bend_angles.csv
+rock_bend_angles.csv
