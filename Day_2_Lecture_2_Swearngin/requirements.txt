@@ -13,3 +13,4 @@ tqdm
 pytorch-revgrad
 jupyter
 matplotlib
+openai

@@ -1,3 +1,7 @@
+Before running the notebooks, please complete the following steps. It is recommended to use a Python virtual environment, and to install Python 3.10 for running these notebooks. You can use Homebrew to install Python or pyenv, etc. The following instructions use minforge & conda, and Homebrew. 
+
+
+
 # Install Python (3.10) 
 `brew install python@3.10`
 
@@ -25,4 +29,10 @@
 2. `python downloader.py`
 
 # Setup your hugging face account if you don't already have one. https://huggingface.co/
+
+# Set an OpenAI token
+Open `tokens.json` and set the key "openai". 
+
+# Questions? 
+Reach out to me at <a href="mailto:mandamarie05@gmail.com">email</a>
 
