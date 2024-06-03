@@ -1,0 +1,15 @@
+pillow
+torch
+torchvision
+pytorch_lightning==1.9
+scikit-learn
+xmltodict
+mean_average_precision
+gdown
+tensorboard
+opencv-python
+pandas
+tqdm 
+pytorch-revgrad
+jupyter
+matplotlib
