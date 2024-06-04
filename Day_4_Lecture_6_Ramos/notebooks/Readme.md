@@ -39,17 +39,25 @@ This has code that can help you parse the exported bookmarks from your browser.
 
 This has code that can help you do some basic processing of HTML files.
 
-### using_llms
+### 01_using_llms
 
 This file can help you get up and running using LLMs with simple examples.
 
-### using_embeddings
+### 02_using_embeddings
 
 Embeddings are useful to assess the semantic similarity of different parts of documents. This file can help you get up and running using embeddings with simple examples.
 
-### using_agents (optional)
+### 03_using_agents (optional)
 
 Agents can be a powerful abstraction to help you do more complex tasks with LLMs. This file can help you get up and running using agents with simple examples.
+
+### 04_Sensemaking
+
+Notebook to do the activities of the sensemaking part of the lecture.
+
+### 05_Ideation
+
+Notebook to do the activities of the ideation part of the lecture.
 
 ## Data
 
