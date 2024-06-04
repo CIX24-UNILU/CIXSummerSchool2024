@@ -235,15 +235,15 @@ def download_model_gdown(model_name, model_key, model_path="checkpoints"):
 
 
 if __name__ == "__main__":
+    download_vins()
+    download_metadata_gdown("screenrecognition")
+    download_model_gdown("screenrecognition", "screenrecognition-web350k-vins.ckpt")
+
     # download_metadata_gdown("screenclassification")
     # download_model_gdown(
     #     "screenclassification", "screenclassification-resnet-noisystudent+web350k.ckpt"
     # )
     # download_enrico()
-    # download_vins()
-
-    # download_metadata_gdown("screenrecognition")
-    # download_model_gdown("screenrecognition", "screenrecognition-web350k-vins.ckpt")
 
     # download_metadata_gdown("screensim")
     # download_model_gdown("screensim", "screensim-resnet-web350k.ckpt")
@@ -252,5 +252,37 @@ if __name__ == "__main__":
     # download_rico()
 
     # WebUI dataset - needed for the screen similarity example
-    download_boxes_gdown()
-    download_dataset_gdown("webui-7k")
+    # download_boxes_gdown()
+    # download_dataset_gdown("webui-7k")
+
+    # Links - Instructions for manual download
+    # Model Checkpoints
+
+    #### MANUAL DOWNLOAD STEPS  ####
+    # Download the checkpoint for 1. Train_Screen_Recognizer_VINS.ipynb and 2. Evaluate_Screen_Recognizer_VINS.ipynb
+    # Screen Recognition - https://drive.google.com/file/d/14BjYnwyWhHK8APpWLHj9J7SgoHBLjrMb/view?usp=share_lin
+    # Copy the checkpoints downloaded above to downloads/checkpoints
+
+    # Download the following folder for notebook 1. Train_Screen_Recognizer_VINS.ipynb
+    # Screen Recognition metadata - https://drive.google.com/drive/folders/1jOJF2nm5F98nCn3alSR3AZhOTjuYbvDA
+    # Copy these files to downloads/metadata/screenrecognition/
+
+    # Datasets
+    # VINS:  https://drive.google.com/file/d/1ucti2ujNJgKV-Ts_mXALA7BZ97iPv8h6/view
+    # Extract this folder to to downloads/vins/
+
+    ## Bonus datasets ##
+    # These are needed for notebook 4, 5, 7, 8
+    # (Bonus) Screen similarity - https://drive.google.com/file/d/1SjU-yjhBXdImCmSf251EWceAH-QAef_N/view?usp=share_link
+    # (Bonus) Screen classification - https://drive.google.com/file/d/1jAVpeXV46veDq2L4RJMX8uLTim23Egl_/view?usp=share_link
+    # Copy the checkpoints downloaded above to downloads/checkpoints
+
+    # These are needed for notebook 4, 5, 7, 8
+    # (bonus) - screen classification - https://drive.google.com/drive/folders/17AHRTUQ99UbU6ugumFROpRQ-49BKtGat?usp=share_link
+    # Copy these files to downloads/metadata/screenclassification/
+    # (bonus) - screen similarity - https://drive.google.com/drive/folders/1mHyB7Y8tHhB5aNs-vMxaSV0ANPJmwegq
+    # Copy these files to downloads/metadata/screensim/
+
+    # Datasets for notebook 4, 5
+    # (Bonus) Enrico: http://userinterfaces.aalto.fi/enrico/resources/screenshots.zip (Extract to downloads/enrico/screenshots)
+    # (Bonus) Enrico metadata: https://raw.githubusercontent.com/luileito/enrico/master/design_topics.csv

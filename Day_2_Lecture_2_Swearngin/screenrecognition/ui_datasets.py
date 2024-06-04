@@ -13,15 +13,6 @@ import zipfile
 import xmltodict
 
 
-DEVICE_SCALE = {
-    "default": 1,
-    "iPad-Mini": 2,
-    "iPad-Pro": 2,
-    "iPhone-13 Pro": 3,
-    "iPhone-SE": 3,
-}
-
-
 class VINSUIDataset(torch.utils.data.Dataset):
     def __init__(
         self,
@@ -84,6 +75,7 @@ class VINSUIDataset(torch.utils.data.Dataset):
             image_id = torch.tensor([idx])
             area = (boxes[:, 3] - boxes[:, 1]) * (boxes[:, 2] - boxes[:, 0])
 
+            # Provide the boxes, labels and other metadata for model training.
             target = {}
             target["boxes"] = boxes
             target["labels"] = labels
