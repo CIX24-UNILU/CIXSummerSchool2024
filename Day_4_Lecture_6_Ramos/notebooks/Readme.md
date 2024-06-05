@@ -59,6 +59,10 @@ Notebook to do the activities of the sensemaking part of the lecture.
 
 Notebook to do the activities of the ideation part of the lecture.
 
+### 06_Metacognition
+
+Notebook to do the activities of the metacognition part of the lecture.
+
 ## Data
 
 ## Questions?
