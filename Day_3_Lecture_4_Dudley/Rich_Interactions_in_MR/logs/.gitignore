@@ -3,6 +3,7 @@ rock/
 scissors/
 
 *.py
+!GestureIndexer.py
 
 *_annotations.csv
 scissors_bend_angles.csv
