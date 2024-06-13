@@ -20,8 +20,7 @@ The topics and speakers are as follows:
 - Day 4 (June 6th) Lecture 5: Parameterization and Selection of Behavioural Models by [Gilles Bailly](https://hci.isir.upmc.fr/gilles-bailly/)
 - Day 4 (June 6th) Lecture 6:Augmenting Ideation and Sensemaking in the age of LLMs: Concepts, Examples, and Opportunities from an HCI Perspective by [Gonzalo Ramos](https://www.microsoft.com/en-us/research/people/goramos/)
 - Day 5 (June 7th) Lecture 7: Forward and inverse modelling in input by [John H. Williamson](https://www.gla.ac.uk/schools/computing/staff/johnwilliamson/)
-
-
+- Day 5 (June 7th) [Closing Session](Day_5-Closing_Session/CIx%20Closing%20Session.pdf) : by Organizers
 
 
 The school will be organized by:
